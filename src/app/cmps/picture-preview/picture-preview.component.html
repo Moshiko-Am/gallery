@@ -1,0 +1,5 @@
+<div class="picture-preview-container" [routerLink]="['/picture/', pictureData.id]">
+    <img [src]="pictureData.images.gallery">
+    <h2>{{pictureData.name}}</h2>
+    <p>{{pictureData.artist.name}}</p>
+</div>
